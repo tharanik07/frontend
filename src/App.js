@@ -113,7 +113,7 @@ function App() {
     console.log("Form Data:", formData);
 
     try {
-      const response = await fetch("http://localhost:5001/add-user", {
+      const response = await fetch("https://backend-1-lxx9.onrender.com/add-user", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
